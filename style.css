@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  width: 90rem;
+  margin: 0 auto;
+  background-color:#626362;
+  font-family: 'Lalezar';
+}
+
+
+
+.maindv{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(5,1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 10rem;
+  row-gap: 4rem;
+  padding: 12rem;
+}
+
+.mainp{
+  font-size: 1.8rem;
+  text-decoration: none;
+  
+}
+
+.secdv{
+width: 12rem;
+height: 12rem;
+background-color: aqua;
+border-radius: 50%;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+justify-items: center;
+align-items: center;
+}
+
+.items{
+  font-size: 3rem;
+  margin-top: 2rem;
+  padding: 3rem 1.5rem;
+  background-color:#B1D7B4;
+  border-radius: 1rem;
+}
+
+.material{
+  font-size: 2rem;
+}
+
+p{
+  color:rgb(0, 0, 0);
+}
+
+section{
+  /* background-color:#E4D1B9; */
+  background-image:url(img/-2147483648_-210469.jpg)  ;
+  width: 90rem;
+  padding-top:25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 6rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+img{
+  width: 8rem;
+  height: 8rem;
+  right: 4rem;
+ align-self: center;
+  position: absolute;
+}
+
+.name{
+  justify-self: center;
+  align-self: center;
+  font-size: 3rem;
+}
+
+
+.b{
+  text-align: center;
+}
+
+
+.z{
+  background-color:#B1D7B4;
+  padding: 5rem 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-decoration: none;
+  color: black;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.y{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(5,1fr);
+column-gap: 3rem;
+row-gap: 3rem;
+padding-top: 27rem;
+}
+
+
+/* ------------ */
+/* coffebar */
+/* ------------ */
+
+.itemx{
+  text-align: center;
+  background:linear-gradient(to bottom left,rgb(255, 255, 255) 50%,rgba(140, 140, 218, 0.644) 50%);
+}
+
+
+/* --------------- */
+/* queries */
+/* --------------- */
+@media (max-width:900px){
+ 
+  html{
+    font-size: 50%;
+  }
+
+  section{
+    background-size: contain;
+  }
+
+  .y{
+    background-size: cover;
+  }
+  }
+
+
+  @media (max-width:750px){
+    html{
+      font-size: 31.25%;
+    }
+
+  }
+
+
